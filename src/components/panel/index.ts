@@ -1,0 +1,12 @@
+import Heading from './Heading/Heading'
+import Bold from './Bold'
+import Italic from './Italic'
+import Stickethough from './Stickethough'
+import Chain from './Chain'
+import Code from './Code'
+import Image from './Image'
+import Listul from './Listul'
+import Listol from './Listol'
+import Task from './Task'
+import Tex from './Tex'
+export default { Heading, Bold, Italic, Stickethough, Chain, Code, Image, Listul, Listol, Task, Tex}

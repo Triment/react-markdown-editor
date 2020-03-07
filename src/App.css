@@ -1,0 +1,15 @@
+.App {
+  background-color: #ffffff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-center {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 800px;
+  height: 400px;
+}

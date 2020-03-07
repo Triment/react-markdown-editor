@@ -1,0 +1,51 @@
+.mk_edit {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 4px 8px;
+    box-shadow: 0 0 4px 2px rgb(130, 130, 130);
+    transition: all 1s cubic-bezier(1, 0, 0, 1);
+    .mk_edit_header {
+        display: flex;
+        min-height: 3rem;
+        flex-wrap: wrap;
+        .item {
+            color: grey;
+            list-style: none;
+            width: 2rem;
+            border-radius: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.7s linear;
+            &:hover {
+                color: #414141;
+                cursor: pointer;
+            }
+        }
+    }
+    .mk_edit_ed_area {
+        width: 100%;
+        display: flex;
+        #mk_editor {
+            width: 49%;
+            height: 100%;
+            border-left: 0 solid;
+            border-top: 0 solid;
+            border-right: 1px solid;
+            border-bottom: 0 solid;
+            border-color: darkgrey;
+            word-wrap: break-word;
+            resize: none;
+            &:focus {
+                outline: none;
+            }
+        }
+        #mk_overview {
+            width: 50%;
+            overflow-y: scroll;
+            padding: 2px;
+        }
+    }
+}
