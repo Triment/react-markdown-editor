@@ -1,7 +1,5 @@
 
-# The editor for markdown That support Latex by katex
-
-#### This is a react Component，That is a editor support Latex and markdown
+# A editor supports Latex by katex
 
 Screenshot：
 
