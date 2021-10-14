@@ -1,5 +1,5 @@
 
-# A editor supports Latex by katex
+# An editor supports Latex by katex
 
 Screenshot：
 
